@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Her Gün Bir Şiir",
+    "version": "1.0",
+    "description": "Her gün veya her tıklamada rastgele bir şiir önerir.",
+    "icons": {
+      "128": "icon128.png"
+    },
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
